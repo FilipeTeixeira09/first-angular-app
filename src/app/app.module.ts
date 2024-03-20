@@ -1,14 +1,21 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-
+import { FormsModule } from '@angular/forms';
 import { AppComponent } from './app.component';
+
+// Automatically generated after runnig the command vvv
+import { AppointmentListComponent } from './appointment-list/appointment-list.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+
+    // Automatically added after running the command
+    AppointmentListComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
